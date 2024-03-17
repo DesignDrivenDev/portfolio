@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  // overflow-x: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 10px;
+}
+progress::-webkit-progress-value {
+  background-color: #2563eb;
+  border-radius: 10px;
+}
